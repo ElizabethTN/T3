@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_reproductor"
+        android:icon="@drawable/play_icon"
+        android:title="Reproductor de Música"/>
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/baseline_personal_video_24"
+            android:title="Reproductor de Video"/>
+
+        <item
+            android:id="@+id/nav_gestures"
+            android:icon="@drawable/gestures"
+            android:title="Gestures"/>
+
+        <item
+            android:id="@+id/nav_dibujo"
+            android:icon="@drawable/baseline_draw_24"
+            android:title="Dibujo"/>
+
+        <item
+            android:id="@+id/nav_animacion"
+            android:icon="@drawable/animacion"
+            android:title="Animación"/>
+
+        <item
+            android:id="@+id/nav_touch_sonido"
+            android:icon="@drawable/touch_sonido"
+            android:title="Touch y Sonido"/>
+
+        <item
+            android:id="@+id/nav_efectos"
+            android:icon="@drawable/efectos"
+            android:title="Efectos"/>
+    </group>
+</menu>

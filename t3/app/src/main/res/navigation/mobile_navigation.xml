@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_reproductor"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/nav_reproductor"
+        android:name="com.example.t3.ui.reproductor.ReproductorFragment"
+        android:label="Reproductor de música"
+        tools:layout="@layout/fragment_reproductor"/>
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.t3.ui.video.VideoFragment"
+        android:label="Reproductor de video"
+        tools:layout="@layout/fragment_video"/>
+
+    <fragment
+        android:id="@+id/nav_gestures"
+        android:name="com.example.t3.ui.gestures.GesturesFragment"
+        android:label="Gestures"
+        tools:layout="@layout/fragment_gestures"/>
+
+    <fragment
+        android:id="@+id/nav_dibujo"
+        android:name="com.example.t3.ui.dibujo.DibujoFragment"
+        android:label="Dibujo"
+        tools:layout="@layout/fragment_dibujo"/>
+
+
+
+    <fragment
+        android:id="@+id/nav_touch_sonido"
+        android:name="com.example.t3.ui.touch_sonido.Touch_SonidoFragment"
+        android:label="Touch y Sonido"
+        tools:layout="@layout/fragment_touch__sonido"/>
+
+    <fragment
+        android:id="@+id/nav_efectos"
+        android:name="com.example.t3.ui.efectos.EfectosFragment"
+        android:label="Efectos"
+        tools:layout="@layout/fragment_efectos"/>
+</navigation>
