@@ -19,15 +19,11 @@
             android:icon="@drawable/gestures"
             android:title="Gestures"/>
 
-        <item
-            android:id="@+id/nav_dibujo"
-            android:icon="@drawable/baseline_draw_24"
-            android:title="Dibujo"/>
 
         <item
             android:id="@+id/nav_animacion"
             android:icon="@drawable/animacion"
-            android:title="Animación"/>
+            android:title="Animación y Dibujo"/>
 
         <item
             android:id="@+id/nav_touch_sonido"

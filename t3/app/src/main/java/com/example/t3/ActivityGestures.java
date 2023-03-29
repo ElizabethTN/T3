@@ -12,7 +12,7 @@ public class ActivityGestures extends AppCompatActivity implements GestureDetect
 
         private static final String TAG = "Swipe Position";
         private float x1, x2, y1, y2;
-        private static int MIN_DISTANCE = 5;
+        private static int MIN_DISTANCE = 150;
         private GestureDetector gestureDetector;
 
         ImageView im;
